@@ -1,0 +1,17 @@
+{
+	"ulid": "01DRWXF3D5936WX05G40D41WZA",
+	"minTime": 1572912000000,
+	"maxTime": 1572919200000,
+	"stats": {
+		"numSamples": 611963,
+		"numSeries": 555,
+		"numChunks": 4585
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01DRWXF3D5936WX05G40D41WZA"
+		]
+	},
+	"version": 1
+}

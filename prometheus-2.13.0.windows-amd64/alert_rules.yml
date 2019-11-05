@@ -1,0 +1,12 @@
+groups:
+- name: alert_rules
+  rules:
+  - alert: peer_error
+    expr: error_logging_entries_written > 0
+    #for: 1s
+    labels:
+      severity: critical
+    annotations:
+      description: '{{ $labels.instance }} of job {{ $labels.job }} has been error for more than 15 seconds!!!'
+      summary: Instance {{ $labels.instance }} error
+      
